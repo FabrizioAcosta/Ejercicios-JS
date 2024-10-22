@@ -35,16 +35,14 @@ function palabrasTerminanConA(palabras) {
 const palabras = ['casa', 'silla', 'mesa'];
 console.log(palabrasTerminanConA(palabras)); // -> true
 
-// 4. Transformar Arrays
-// 4.1 Crea una función llamada `buscaPalabras` que reciba dos parámetros: un array `words` y una palabra `word`.
+// 4.1 Crea una función llamada buscaPalabras que reciba dos parámetros: un array words y una palabra word.
 function buscaPalabras(words, word) {
     const index = words.indexOf(word); 
     if (index === -1) return []; 
     return words.slice(index + 1); 
 }
- ['hola', 'mundo', 'javascript', 'node'];
+const words = ['hola', 'mundo', 'javascript', 'node'];
 console.log(buscaPalabras(words, 'mundo')); // El resultado debe ser: ['javascript', 'node']
-
 // 5. Matrices
 // 5.1 Crea una función llamada `findJavaScript` que reciba una matriz de cadenas y devuelva la posición de "JavaScript".
 
